@@ -5,6 +5,7 @@ process.argv.slice(2).map((hostname) => {
     dns.lookup(hostname, (err, address) => {
       if (err) {
         console.error("Could not resolve hostname")
+        return
       }
 
       console.log(`Address of "${hostname}": ${address}`)
