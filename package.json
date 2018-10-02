@@ -6,6 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dns": "ts-node ./src/dns.ts"
+    "dns": "ts-node ./src/dns.ts",
+    "read-dir-async": "ts-node ./src/read-dir-async.ts",
   },
   "devDependencies": {
     "@types/node": "^10.11.3",
