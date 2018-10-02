@@ -5,9 +5,9 @@
   "author": "Christoph Pader-Barosch",
   "license": "MIT",
   "scripts": {
-    "dns": "ts-node ./src/dns.ts"
     "dns": "ts-node ./src/dns.ts",
     "read-dir-async": "ts-node ./src/read-dir-async.ts",
+    "read-dir-sync": "ts-node ./src/read-dir-sync.ts"
   },
   "devDependencies": {
     "@types/node": "^10.11.3",
